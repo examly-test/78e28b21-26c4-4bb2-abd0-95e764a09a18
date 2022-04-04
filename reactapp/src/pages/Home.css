@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+  }
+  
+  body{
+  background-image: url('./carsharing.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  .topnav {
+    /* background-color: #e1f0113f; */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #2e05e6d0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav label {
+    padding: 14px 16px;
+    color: #2e05e6d0;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(206, 241, 10, 0.904);
+    color: rgb(214, 16, 221);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #Black;
+    color: Black;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+  .topnav-left {
+    float: left;
+  }
+
+  .homeScreen {
+    background-color: thick rgba(192, 28, 124, 0.596);
+    text-align: center;
+    height: 90vh !important;
+   
+  }
+  h1 {
+    padding-top: 15%;
+  }
